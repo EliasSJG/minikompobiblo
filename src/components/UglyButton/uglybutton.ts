@@ -7,7 +7,7 @@ export const uglyButton = (buttonText: string) => {
   button.addEventListener("click", () => {
     const newButton = document.createElement("button");
     newButton.classList.add("component-button");
-    newButton.textContent = "Ny knapp";
+    newButton.textContent = buttonText;
     document.body.appendChild(newButton);
   });
 
